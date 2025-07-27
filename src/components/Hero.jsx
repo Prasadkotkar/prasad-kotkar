@@ -46,13 +46,16 @@ const Hero = () => {
                     </div>
 
                     <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb:10">
-                        Building Scalable Modern Websites for the Future
+                        Crafting full-stack web solutions with robust backend architecture, sleek frontend design, and cloud-ready deployment {/* — turning ideas into performant, future-proof digital experiences. */}
                     </h2>
 
                     <div className="flex items-center gap-3 ">
                         <ButtonPrimary 
+                            href="/images/Full Stack developer resume.pdf"
                             label="Download CV"
                             icon="download"
+                            target="_blank"
+                            
 
                         
                         />

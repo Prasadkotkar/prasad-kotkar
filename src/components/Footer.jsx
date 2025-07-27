@@ -29,10 +29,11 @@ const Footer = () => {
                         </h2>
 
                         <ButtonPrimary 
-                            href="mailto:pkotkar27@gmail.com"
+                            href="mailto:pkotkar@gmail.com?subject=Inquiry&body=Hello, I would like to know more about..."
                             label="Start Project"
                             icon="chevron_right"
                             classes="reveal-up"
+                            target="_blank"
                         />
                     </div>
 
@@ -80,9 +81,9 @@ const Footer = () => {
                     className="logo reveal-up"
                     >
                         <img 
-                        src="/images/logo.svg" 
-                        width={40}
-                        height={40}
+                        src="/images/logo.png" 
+                        width={60}
+                        height={60}
                         alt="Logo" 
                         />
                     </a>
@@ -122,23 +123,28 @@ const sitemap = [
 const socials = [
   {
     label: 'GitHub',
-    href: 'https://www.github.com/codewithsadee-org'
+    href: 'https://github.com/Prasadkotkar'
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/codewithsadee'
+    href: 'https://www.linkedin.com/in/prasad-kotkar'
   },
   {
     label: 'Twitter X',
-    href: 'https://x.com/codewithsadee_'
+    href: 'https://x.com/Prasadkotkar'
   },
   {
     label: 'Instagram',
-    href: 'https://www.instagram.com/codewithsadee'
+    href: 'https://www.instagram.com/prasssad_'
   },
   {
     label: 'CodePen',
-    href: 'https://codepen.io/codewithsadee'
+    href: 'https://codepen.io/prasadkotkar'
   }
 ];
+const handleEmailClick = (e) => {
+    e.preventDefault();
+    alert("Launching your email app...");
+    window.location.href = "mailto:pkotkar@gmail.com?subject=Inquiry&body=Hello, I would like to know more about...";
+  };
 export default Footer;

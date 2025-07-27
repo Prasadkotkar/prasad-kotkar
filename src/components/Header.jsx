@@ -31,9 +31,9 @@ const Header = () => {
                     className="logo"
                     >
                         <img 
-                        src="/images/logo.svg" 
-                        width={40}
-                        height={40} 
+                        src="/images/logo.png" 
+                        width={80}
+                        height={80} 
                         alt="Prasad Kotkar" 
                         />
                     </a>
