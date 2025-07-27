@@ -20,7 +20,7 @@
 
 
 # Build files
-/dist/
+# /dist/
 
 # Environment variables
 .env
