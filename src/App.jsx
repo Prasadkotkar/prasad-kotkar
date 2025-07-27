@@ -10,6 +10,7 @@ import ReactLenis from "lenis/react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 /**
  * Register gsap plugin
@@ -27,6 +28,7 @@ import Work from "./components/Work";
 import Review from "./components/Review";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+// eslint-disable-next-line no-unused-vars
 import { element } from "prop-types";
 
 /**
@@ -65,6 +67,7 @@ const App = () => {
           <Review />
           <Contact />
           <Footer />
+          <SpeedInsights />
 
       </main>
     </ReactLenis>
