@@ -53,6 +53,9 @@ body {
 .section {
   @apply pt-20 lg:pt-32
 }
+.reveal-up {
+  @apply translate-y-0 opacity-0
+}
 
 
 

@@ -20,7 +20,7 @@ const Skills = () => {
         <section className="section">
             <div className="container">
 
-                <h2 className="headline-2">
+                <h2 className="headline-2 reveal-up">
                     Essential Tools I use
                 </h2>
                 <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch]">
@@ -36,6 +36,7 @@ const Skills = () => {
                                 imgSrc={imgSrc}
                                 label={label}
                                 desc={desc}
+                                classes="reveal-up"
 
                             />
                         ))
