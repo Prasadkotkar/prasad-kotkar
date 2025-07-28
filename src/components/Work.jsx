@@ -68,7 +68,7 @@ const works = [
     imgSrc: '/images/project-6.jpg',
     title: 'Personal portfolio',
     tags: ['Web-design', 'Development', 'Live'],
-    projectLink: 'https://github.com/Prasadkotkar/prasad-kotkar'
+    projectLink: 'https://prasad-kotkar.vercel.app'
   },
   // {
   //   imgSrc: '/images/project-4.jpg',
@@ -80,7 +80,7 @@ const works = [
     imgSrc: '/images/project-5.jpg',
     title: 'ShopNexGen eCommerce webapp',
     tags: ['eCommerce', 'Development', 'Demo', 'Live'],
-    projectLink: 'https://github.com/Prasadkotkar/shopnexgen-ui'
+    projectLink: 'https://shopnexgen-ui.vercel.app'
   }
 ];
 export default Work;
