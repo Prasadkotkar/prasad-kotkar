@@ -199,9 +199,15 @@ const skillItem = [
     desc: 'Authentication & AuthZ'
   },
   {
+  
     imgSrc: '/images/hibernate.svg',
     label: 'Hibernate',
     desc: 'ORM Framework'
+  },
+  {
+    imgSrc: '/images/springdata.svg',
+    label: 'Spring Data JPA',
+    desc: 'ORM for Spring Boot'
   },
   {
     imgSrc: '/images/RestAPI.svg',
@@ -273,6 +279,11 @@ const skillItem = [
     imgSrc: '/images/mongodb.svg',
     label: 'MongoDB',
     desc: 'Database'
+  },
+  {
+    imgSrc: '/images/JUnit.svg',
+    label: 'JUNIT',
+    desc: 'Unit Testing Framework'
   },
   {
     imgSrc: '/images/swagger.svg',
