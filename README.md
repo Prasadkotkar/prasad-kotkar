@@ -1,12 +1,52 @@
-# React + Vite
+🌐 Personal Portfolio Website
+A fully responsive and animated personal portfolio website showcasing my skills, projects, and experience.
+Built with ReactJS (Vite), TailwindCSS, GSAP animations, and Lenis smooth scrolling for a modern, engaging user experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 Live Demo: prasad-kotkar.vercel.app
 
-Currently, two official plugins are available:
+🚀 Features
+Responsive Design – Fully optimized for mobile, tablet, and desktop viewports.
+Smooth Animations – Leveraged GSAP ScrollTrigger for scroll-based animations.
+Smooth Scrolling – Implemented Lenis for enhanced user experience.
+TailwindCSS Styling – Rapid and maintainable UI design with utility-first classes.
+Optimized Build – Powered by Vite for fast development and deployment.
+Best Practices – Clean, reusable components and modern React development standards.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠 Tech Stack
+Frontend: ReactJS (Vite), TailwindCSS
+Animations: GSAP (ScrollTrigger), Lenis
 
-## Expanding the ESLint configuration
+Deployment: Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📂 Project Structure
+├── public/
+├── src/
+│   ├── assets/        # Images, icons, and static files
+│   ├── components/    # Reusable UI components
+│   ├── sections/      # Portfolio sections (About, Projects, Contact, etc.)
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── package.json
+└── README.md
+
+📦 Installation & Setup
+Clone the repo
+git clone https://github.com/prasadkotkar/portfolio.git
+Navigate into the project folder
+cd portfolio
+Install dependencies
+npm install
+Start the development server
+npm run dev
+http://localhost:5173
+
+📸 Screenshots
+Add screenshots of your portfolio here to make the README visually appealing.
+
+📬 Contact
+If you’d like to collaborate or have any queries, feel free to reach out:
+Name: Prasad Kotkar
+Portfolio: prasad-kotkar.vercel.app
+Email: pkotkar27@gmail.com
+LinkedIn: linkedin.com/in/prasad-kotkar
