@@ -81,6 +81,12 @@ const works = [
     title: 'ShopNexGen eCommerce webapp',
     tags: ['eCommerce', 'Development', 'Demo', 'Live'],
     projectLink: 'https://shopnexgen-ui.vercel.app'
+  },
+  {
+    imgSrc: '/images/project-7.jpg',
+    title: 'ByteChronicle BlogApp',
+    tags: ['BlogApp', 'Web-design','Development','Git-repo'],
+    projectLink: 'https://github.com/Prasadkotkar/ByteChronicle-ui'
   }
 ];
 export default Work;
